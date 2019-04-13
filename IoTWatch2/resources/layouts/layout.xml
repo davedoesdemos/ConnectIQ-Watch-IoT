@@ -1,0 +1,4 @@
+<layout id="MainLayout">
+    <drawable id="mainbg" />
+    <bitmap id="id_monkey" x="center" y="center" filename="../drawables/D3.240.png" />
+</layout>

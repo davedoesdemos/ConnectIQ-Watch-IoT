@@ -1,0 +1,6 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="D3.40.png" />
+    <drawable-list id="mainbg" x="0" y="0" foreground="0xffffff">
+        <shape type="rectangle" width="fill" height="fill" />
+    </drawable-list>
+</drawables>
