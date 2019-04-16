@@ -18,9 +18,17 @@ Of the two methods shown here, environment 1 is the simplest. This architecture 
 
 ## Power BI
 
-Log in to [Powerbi.microsoft.com](https://powerbi.microsoft.com/en-us/) and create a new app workspace called ConnectIQ Demo. Once created, add a streaming dataset.
+Log in to [Powerbi.microsoft.com](https://powerbi.microsoft.com/en-us/) and create a new app workspace called ConnectIQ Demo. Once created, add a streaming dataset. Choose API and click Next.
 
 ![5.CreateStreamingDataset.png](images/5.CreateStreamingDataset.png)
+
+Add in the various fields we'll be collecting. All of these are numbers except the timestamp which will be datetime. Enable historical data analysis so we can use the data later as well as in real time.
+
+![6.NewDataset.png](images/6.NewDataset.png)
+
+Now create a dashboard and call it ConnectIQ Data. Add a tile and choose custom streaming data. Select your ConnectIQ dataset and then choose Card as the visualisation type. Select Heartrate as the field and click next. Add a title if you want one, and cilck apply to finish. Repeat this process to add a graph with timestamp as the axis and Heartrate as the value. Heartrate changes often so is a good metric to test with, but feel free to experiment.
+
+![8.CustomStreamingData.png](images/8.CustomStreamingData.png)
 
 ## Logic App
 
@@ -88,6 +96,20 @@ Next, add a Parse JSON task and add in the body of the request as the content. I
 ```
 
 ![4.ParseJSON.png](images/4.ParseJSON.png)
+
+Finally, add a Power BI task to add rows to dataset. You'll need to authenticate to your Power BI account here, and then choose your app workspace and dataset. Add in the columns from the dataset and then use the variables from the Parse JSON task to fill them. Use utcnow() to add the timestamp.
+
+![7.AddRowsToDataset.png](images/7.AddRowsToDataset.png)
+
+## Create the App
+
+CLone the repository to your local machine and open the IoTWatch2 project. Paste the URL from your Logic App HTTP trigger into the variable in the IoTWatchView.mc file. This includes the security token so is all you need to do. You can optionally change the timer variable from 5000 (5 seconds) to some other value. This is a balance of cost and battery life, remember your Logic App wil charge for each run.
+
+![10.code.png](images/10.code.png)
+
+Run the app to test and you should see data in your Logic App runs as well as being passed through to Power BI in near real time.
+
+You can now side load the app to your device using the USB cable. Copy the file from the bin directory in your copy of the repository into the Apps directory on your device. You may need to restart the device to see the app. Start the app and ensure you have Bluetooth connectivity to the Connect mobile app and Internet access on your phone. You'll now see live data from the device in your Power BI session.
 
 # Environment 2
 
