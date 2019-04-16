@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchApp.mc" id="3" lineNum="6" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchApp.mc" id="3" lineNum="7" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchApp.mc" id="4" lineNum="11" pc="268435479" symbol="onStart"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchApp.mc" id="5" lineNum="15" pc="268435484" symbol="onStop"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchApp.mc" id="6" lineNum="19" pc="268435489" symbol="getInitialView"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchApp.mc" id="6" lineNum="20" pc="268435493" symbol="getInitialView"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="8" lineNum="24" pc="268435531" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="8" lineNum="25" pc="268435535" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="8" lineNum="27" pc="268435553" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="30" pc="268435598" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="31" pc="268435602" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="32" pc="268435619" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="33" pc="268435636" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="34" pc="268435643" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="35" pc="268435650" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="36" pc="268435657" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="37" pc="268435664" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="38" pc="268435671" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="39" pc="268435678" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="40" pc="268435685" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="41" pc="268435692" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="42" pc="268435699" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="43" pc="268435706" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="44" pc="268435713" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="45" pc="268435720" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="46" pc="268435727" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="47" pc="268435734" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="51" pc="268435741" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="52" pc="268435768" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="53" pc="268435778" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="54" pc="268435788" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="57" pc="268435801" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="58" pc="268435808" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="61" pc="268435815" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="62" pc="268435842" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="65" pc="268435855" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="68" pc="268435862" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="69" pc="268435889" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="72" pc="268435902" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="75" pc="268435909" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="76" pc="268435936" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="79" pc="268435949" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="82" pc="268435956" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="83" pc="268435983" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="86" pc="268435996" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="89" pc="268436003" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="90" pc="268436030" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="91" pc="268436040" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="92" pc="268436050" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="93" pc="268436060" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="96" pc="268436073" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="97" pc="268436080" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="98" pc="268436087" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="101" pc="268436094" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="102" pc="268436121" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="105" pc="268436134" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="108" pc="268436141" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="109" pc="268436168" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="112" pc="268436181" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="115" pc="268436188" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="116" pc="268436215" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="119" pc="268436228" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="122" pc="268436235" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="123" pc="268436262" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="126" pc="268436275" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="129" pc="268436282" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="130" pc="268436309" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="131" pc="268436328" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="132" pc="268436338" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="135" pc="268436351" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="136" pc="268436358" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="142" pc="268436365" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="159" pc="268436658" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="163" pc="268436704" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="168" pc="268436766" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="10" lineNum="171" pc="268436813" symbol="onReceive"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="11" lineNum="178" pc="268436818" symbol="onLayout"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="11" lineNum="179" pc="268436822" symbol="onLayout"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="12" lineNum="182" pc="268436860" symbol="onShow"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="13" lineNum="186" pc="268436865" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="13" lineNum="187" pc="268436869" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\repos\\ConnectIQ-Watch-IoT\\IoTWatchEH\\source\\IoTWatchView.mc" id="14" lineNum="191" pc="268436890" symbol="onHide"/>
+<entry filename="Rez" id="21" lineNum="19" pc="268436895" symbol="initialize"/>
+<entry filename="Rez" id="21" lineNum="20" pc="268436899" symbol="initialize"/>
+<entry filename="Rez" id="22" lineNum="23" pc="268436924" symbol="draw"/>
+<entry filename="Rez" id="22" lineNum="24" pc="268436928" symbol="draw"/>
+<entry filename="Rez" id="22" lineNum="25" pc="268436935" symbol="draw"/>
+<entry filename="Rez" id="22" lineNum="26" pc="268436942" symbol="draw"/>
+<entry filename="Rez" id="22" lineNum="27" pc="268436955" symbol="draw"/>
+<entry filename="Rez" id="22" lineNum="28" pc="268436968" symbol="draw"/>
+<entry filename="Rez" id="23" lineNum="31" pc="268436991" symbol="drawComplex"/>
+<entry filename="Rez" id="23" lineNum="32" pc="268436995" symbol="drawComplex"/>
+<entry filename="Rez" id="23" lineNum="34" pc="268437024" symbol="drawComplex"/>
+<entry filename="Rez" id="25" lineNum="49" pc="268437117" symbol="MainLayout"/>
+<entry filename="Rez" id="25" lineNum="53" pc="268437129" symbol="MainLayout"/>
+<entry filename="Rez" id="25" lineNum="54" pc="268437165" symbol="MainLayout"/>
+<entry filename="Rez" id="25" lineNum="55" pc="268437178" symbol="MainLayout"/>
+<entry filename="Rez" id="25" lineNum="57" pc="268437194" symbol="MainLayout"/>
+<entry filename="Rez" id="25" lineNum="58" pc="268437325" symbol="MainLayout"/>
+<entry filename="Rez" id="25" lineNum="59" pc="268437377" symbol="MainLayout"/>
+<entry filename="Rez" id="25" lineNum="62" pc="268437429" symbol="MainLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388644" module="true" symbol="System"/>
+<entry field="true" id="8388959" symbol="cadence"/>
+<entry id="10" object="true" symbol="IoTWatchView"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="20" symbol="string_HR"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388643" module="true" symbol="Sensor"/>
+<entry field="true" id="8388965" symbol="heading"/>
+<entry field="true" id="21" symbol="url"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="17" method="true" symbol="MainLayout"/>
+<entry id="9" object="true" symbol="IoTWatchApp"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="16" method="true" symbol="drawComplex"/>
+<entry id="8388924" module="true" symbol="Gregorian"/>
+<entry field="true" id="23" symbol="timer"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="15" object="true" symbol="mainbg"/>
+<entry field="true" id="18" symbol="AppName"/>
+<entry id="8389594" symbol="headers"/>
+<entry field="true" id="8389605" symbol="accel"/>
+<entry field="true" id="8388964" symbol="pressure"/>
+<entry field="true" id="14" symbol="LauncherIcon"/>
+<entry id="8388646" module="true" object="true" symbol="Timer"/>
+<entry id="8388786" method="true" symbol="method"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="8388963" symbol="altitude"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="13" symbol="id_monkey"/>
+<entry field="true" id="8389310" symbol="position"/>
+<entry field="true" id="8388958" symbol="speed"/>
+<entry id="12" module="true" symbol="Layouts"/>
+<entry id="8388642" module="true" symbol="Position"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="24" method="true" symbol="timerCallback"/>
+<entry id="8389844" symbol="responseType"/>
+<entry field="true" id="19" symbol="dataTimer"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry field="true" id="8389606" symbol="mag"/>
+<entry id="11" module="true" symbol="Menus"/>
+<entry field="true" id="8388960" symbol="heartRate"/>
+<entry field="true" id="8388961" symbol="power"/>
+<entry id="25" method="true" symbol="onReceive"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="26" symbol="temp"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="22" symbol="sas"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435484" name="state" stackId="1" startPc="268435479"/>
+<entry endPc="268435489" name="state" stackId="1" startPc="268435484"/>
+<entry endPc="268435798" name="accel" stackId="18" startPc="268435768"/>
+<entry endPc="268436070" name="mag" stackId="19" startPc="268436030"/>
+<entry endPc="268436348" name="location" stackId="20" startPc="268436309"/>
+<entry endPc="268436812" name="cadence" stackId="7" startPc="268435602"/>
+<entry endPc="268436812" name="headers" stackId="22" startPc="268435602"/>
+<entry endPc="268436812" name="options" stackId="23" startPc="268435602"/>
+<entry endPc="268436812" name="sensorInfo" stackId="1" startPc="268435602"/>
+<entry endPc="268436812" name="heading" stackId="8" startPc="268435602"/>
+<entry endPc="268436812" name="xMag" stackId="9" startPc="268435602"/>
+<entry endPc="268436812" name="pressure" stackId="13" startPc="268435602"/>
+<entry endPc="268436812" name="altitude" stackId="6" startPc="268435602"/>
+<entry endPc="268436812" name="power" stackId="12" startPc="268435602"/>
+<entry endPc="268436812" name="yMag" stackId="10" startPc="268435602"/>
+<entry endPc="268436812" name="xAccel" stackId="3" startPc="268435602"/>
+<entry endPc="268436812" name="longitude" stackId="17" startPc="268435602"/>
+<entry endPc="268436812" name="latitude" stackId="16" startPc="268435602"/>
+<entry endPc="268436812" name="zMag" stackId="11" startPc="268435602"/>
+<entry endPc="268436812" name="yAccel" stackId="4" startPc="268435602"/>
+<entry endPc="268436812" name="hR" stackId="5" startPc="268435602"/>
+<entry endPc="268436812" name="positionInfo" stackId="2" startPc="268435602"/>
+<entry endPc="268436812" name="speed" stackId="14" startPc="268435602"/>
+<entry endPc="268436812" name="temp" stackId="15" startPc="268435602"/>
+<entry endPc="268436812" name="params" stackId="21" startPc="268435602"/>
+<entry endPc="268436818" name="responseCode" stackId="1" startPc="268436813"/>
+<entry endPc="268436818" name="data" stackId="2" startPc="268436813"/>
+<entry endPc="268436860" name="dc" stackId="1" startPc="268436818"/>
+<entry endPc="268436890" name="dc" stackId="1" startPc="268436865"/>
+<entry endPc="268436990" name="pWidth" stackId="4" startPc="268436928"/>
+<entry endPc="268436990" name="pY" stackId="3" startPc="268436928"/>
+<entry endPc="268436990" name="pX" stackId="2" startPc="268436928"/>
+<entry endPc="268436990" name="pHeight" stackId="5" startPc="268436928"/>
+<entry endPc="268436991" name="dc" stackId="1" startPc="268436924"/>
+<entry endPc="268437117" name="pWidth" stackId="4" startPc="268436991"/>
+<entry endPc="268437117" name="dc" stackId="1" startPc="268436991"/>
+<entry endPc="268437117" name="pY" stackId="3" startPc="268436991"/>
+<entry endPc="268437117" name="pX" stackId="2" startPc="268436991"/>
+<entry endPc="268437117" name="pHeight" stackId="5" startPc="268436991"/>
+<entry endPc="268437456" name="rez_cmp_local_custom_drawable_mainbg" stackId="2" startPc="268437129"/>
+<entry endPc="268437456" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268437129"/>
+<entry endPc="268437457" name="dc" stackId="1" startPc="268437117"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="IoTWatchApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="IoTWatchApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="IoTWatchApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="IoTWatchApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="IoTWatchView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="timerCallback" parent="IoTWatchView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onReceive" parent="IoTWatchView">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="IoTWatchView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="IoTWatchView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="IoTWatchView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="IoTWatchView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="mainbg">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="mainbg">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawComplex" parent="mainbg">
+<param id="dc"/>
+<param id="pX"/>
+<param id="pY"/>
+<param id="pWidth"/>
+<param id="pHeight"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="MainLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="166" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="245" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="300" parentId="Drawables" symbolId="mainbg" type="class"/>
+<dataEntry offset="363" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="394" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="425" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="456" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="495" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="534" parentId="globals" symbolId="IoTWatchApp" type="class"/>
+<dataEntry offset="605" parentId="globals" symbolId="IoTWatchView" type="class"/>
+</dataEntryOffsetMappings>
+</debugInfo>

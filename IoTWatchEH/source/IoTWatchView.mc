@@ -14,10 +14,10 @@ class IoTWatchView extends WatchUi.View {
     var dataTimer = new Timer.Timer();
     var string_HR;
     //Fill in this variable with your REST API endpoint
-    var url = "https://<yournamespace>.servicebus.windows.net/<youreventhub>/publishers/<yourwatchorappID>/messages";
+    var url = "https://connectiq.servicebus.windows.net/watchdata/publishers/935/messages";
     //Fill in this variable with your SAS token (use the Event Hubs Signature Generator if you need to https://github.com/sandrinodimattia/RedDog/releases/tag/0.2.0.1
     //Make sure the SAS url matches your actual URL. If using a publisher ID you can't use Basic Event Hub SKUs
-    var sas = "<yoursaskey";
+    var sas = "SharedAccessSignature sr=https%3a%2f%2fconnectiq.servicebus.windows.net%2fwatchdata%2fpublishers%2f935%2fmessages&sig=OB0WtdEIsVcn5woMa6O03G2dWaGpemTHVOa42yRkk8g%3d&se=1555333633&skn=ConnectIQApp";
     //Fill in this variable with the time interval in ms that you want to use for submitting data. Lower values will cause more calls so will cost more!
     var timer = 1000;
     
