@@ -119,8 +119,41 @@ This environment uses an Azure Event Hub to ingest messages. As such this would 
 
 ## Storage Account
 
+Create a storage account in a new resource group for the demo. Add a container in Blob called Watchdata and set it to Private. This container will be a sink for the incoming data from Event Hubs and will store a permanent copy of the events which can later be processed by HDInsight, SQL Data Warehouse, or Databricks.
+
+![11.container.png](images/11.container.png)
+
 ## Event Hubs
+
+Create a new Event Hubs namespace and give it a unique name (for the demo use ConnectIQ<lastname> and put your name in there). Choose standard for the tier. Choose 1 in the throughput units. This is caable of ingesting 1MB of events, or 1000 events per second whichever comes first. As you can imagine, this is able to handle many devices so we are unlikely to hit these limits with this app. Click Create to create the namespace.
+
+![12.CreateEventHub.png](images/12.CreateEventHub.png)
+
+Once the namespace is created, open it in the console and click Firewalls and virtual networks then set the access to all networks. This is an IoT solution on which messages will be delivered from arbitary endpoints on the Internet so the firewall is not applicable. That's not to say the app is not secure. Connectivity is secured with encryption as well as shared access keys, so it's impossible to submit messages without this authentication and authorisation.
+
+![13.Firewall.png](images/13.Firewall.png)
+
+Click on Overview and add event hub. Name the event hub watchdata and set capture to on. Select the checkbox to avoid empty files being created when there is no data. Select your watchdata container in your storage account and then click Create.
+
+![14.createHub.png](images/14.createHub.png)
+
+Click the watchdata event hub and then click Shared access policies. Click Add and create a policy with the name ConnectIQApp and Send permissions. This SAS policy will be used by all devices, but each device will have a specific token and publisher.
+
+![15.SAS.png](images/15.SAS.png)
+
+Once created, click on the policy to access the keys. Copy the primary key and paste it into the [Event Hubs Signature Generator](https://github.com/sandrinodimattia/RedDog/releases/tag/0.2.0.1) or use the instructions [from Microsoft](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-authentication-and-security-model-overview) to create a SAS token for the device. Note that I've used the device serial number as publisher - you can use anything you like here but a serial number ensures each device is authenticated separately and also that the data is published to a dedicated location from each device. You may also choose to just enter "watch" or the model name here.
+
+![16.tokenGenerator.png](images/16.tokenGenerator.png)
+
+This will give us a message URI of `https//connectiqlusty.servicebus.windows.net/watchdata/publishers/5mt000987/messages` which we will enter into the source code of the app.
+
+## Power BI
+
+Log in to [Powerbi.microsoft.com](https://powerbi.microsoft.com/en-us/) and create a new app workspace called ConnectIQ Demo. Stream Analytics will create the data set so for now this is all we need to do.
 
 ## Stream Analytics
 
-## Power BI
+Create a Stream Analytics job and name is ConnectIQ. Choose Cloud as the location and click Create.
+
+![17.StreamAnalytics.png](images/17.StreamAnalytics.png)
+
