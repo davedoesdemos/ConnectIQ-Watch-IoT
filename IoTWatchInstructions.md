@@ -190,3 +190,5 @@ Now create a dashboard and call it ConnectIQ Data. Add a tile and choose custom 
 ![8.CustomStreamingData.png](images/8.CustomStreamingData.png)
 
 If you now start the app you will see real time data on this dashboard.
+
+![23.dashboard.png](images/23.dashboard.png)
