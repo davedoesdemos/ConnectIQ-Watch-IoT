@@ -103,7 +103,7 @@ Finally, add a Power BI task to add rows to dataset. You'll need to authenticate
 
 ## Create the App
 
-CLone the repository to your local machine and open the IoTWatch2 project. Paste the URL from your Logic App HTTP trigger into the variable in the IoTWatchView.mc file. This includes the security token so is all you need to do. You can optionally change the timer variable from 5000 (5 seconds) to some other value. This is a balance of cost and battery life, remember your Logic App wil charge for each run.
+Clone the repository to your local machine and open the IoTWatch2 project. Paste the URL from your Logic App HTTP trigger into the variable in the IoTWatchView.mc file. This includes the security token so is all you need to do. You can optionally change the timer variable from 5000 (5 seconds) to some other value. This is a balance of cost and battery life, remember your Logic App wil charge for each run.
 
 ![10.code.png](images/10.code.png)
 
@@ -115,7 +115,7 @@ You can now side load the app to your device using the USB cable. Copy the file 
 
 ![environment 2 image](images/environment2.png)
 
-This environment uses an Azure Event Hub to ingest messages. As such this would be much more scalable and allows for copying data to a data lake for later analytics. Stream Analytics then takes these events and pushed them on to Power BI for the demo environment.
+This environment uses an Azure Event Hub to ingest messages. As such this would be much more scalable and allows for copying data to a data lake for later analytics. Stream Analytics then takes these events and pushes them on to Power BI for the demo environment.
 
 ## Storage Account
 
@@ -145,7 +145,17 @@ Once created, click on the policy to access the keys. Copy the primary key and p
 
 ![16.tokenGenerator.png](images/16.tokenGenerator.png)
 
-This will give us a message URI of `https//connectiqlusty.servicebus.windows.net/watchdata/publishers/5mt000987/messages` which we will enter into the source code of the app.
+This will give us a message URI of `https//connectiqlusty.servicebus.windows.net/watchdata/publishers/5mt000987/messages` which we will enter into the source code of the app. Ensure you replace this with the one you generate, which will be `https//<YOURNamespace>.servicebus.windows.net/<YOUREventHub>/publishers/<YOURWatchSerial>/messages`.
+
+## Create the App
+
+Clone the repository to your local machine and open the IoTWatchEH project. Paste the URL from your Event Hub as above into the variable in the IoTWatchView.mc file. Also copy the shared access signature you generated with the tool and paste this in to the code. You can optionally change the timer variable from 5000 (5 seconds) to some other value. This is a balance of cost and battery life.
+
+![18.code.png](images/18.code.png)
+
+Run the app to test and you should see messages appear in your Event Hub monitor.
+
+You can now side load the app to your device using the USB cable. Copy the file from the bin directory in your copy of the repository into the Apps directory on your device. You may need to restart the device to see the app. Start the app and ensure you have Bluetooth connectivity to the Connect mobile app and Internet access on your phone. You'll now see live data from the device arrive into your Event Hub.
 
 ## Power BI
 
