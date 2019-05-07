@@ -192,3 +192,5 @@ Now create a dashboard and call it ConnectIQ Data. Add a tile and choose custom 
 If you now start the app you will see real time data on this dashboard.
 
 ![23.dashboard.png](images/23.dashboard.png)
+
+Note that at this point you will also see files begin to be created in your Blob storage, which we will later use for machine learning.
