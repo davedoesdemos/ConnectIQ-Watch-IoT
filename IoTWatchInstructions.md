@@ -167,3 +167,26 @@ Create a Stream Analytics job and name is ConnectIQ. Choose Cloud as the locatio
 
 ![17.StreamAnalytics.png](images/17.StreamAnalytics.png)
 
+Click on Inputs and select Add Stream Input. Choose Event Hubs as the source.
+
+![19.StreamInput.png](images/19.StreamInput.png)
+
+Fill in your event hub details and give the input a name.
+
+![20.NewInput.png](images/20.NewInput.png)
+
+Next, click Outputs and select Add, then Power BI.
+
+![21.Outputs.png](images/21.Outputs.png)
+
+You'll need to authorise the app to connect to the Power BI service. This will then allow you to choose your app workspace and create a dataset in the service.
+
+![22.PowerBIOutput.png](images/22.PowerBIOutput.png)
+
+## Power BI Dashboard
+
+Now create a dashboard and call it ConnectIQ Data. Add a tile and choose custom streaming data. Select your ConnectIQ dataset and then choose Card as the visualisation type. Select Heartrate as the field and click next. Add a title if you want one, and cilck apply to finish. Repeat this process to add a graph with timestamp as the axis and Heartrate as the value. Heartrate changes often so is a good metric to test with, but feel free to experiment.
+
+![8.CustomStreamingData.png](images/8.CustomStreamingData.png)
+
+If you now start the app you will see real time data on this dashboard.
