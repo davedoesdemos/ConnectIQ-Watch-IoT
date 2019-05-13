@@ -2,7 +2,10 @@
 **produced by Dave Lusty**
 
 ## Introduction
-This guide details how to configure the IoT watch app with Azure Services
+This guide details how to configure the IoT watch app with Azure Services.
+You can find videos of this demo on Youtube at the following locations:
+[Part 1 - Intro](https://youtu.be/_39eKRNK3UU)
+[Part 2 - Initial Platform Build](https://youtu.be/9llyGjfKiLo)
 
 ## Prerequisites
 
