@@ -22,10 +22,77 @@ Next, sit in a chair and relax for a few minutes. Lying down will also work. Onc
 
 ## Azure Databricks
 
+![MLNewDatabricks.png](images/MLNewDatabricks.png)
+
+![MLADBLaunch.png](images/MLADBLaunch.png)
+
+![MLNewNotebook1.png](images/MLNewNotebook1.png)
+
+![MLNewNotebook2.png](images/MLNewNotebook2.png)
+
+![MLNewNotebook3.png](images/MLNewNotebook3.png)
+
+```scala
+import org.apache.spark.sql.functions._
+import org.apache.spark.sql.types._
+
+//Set up Blob storage keys
+spark.conf.set(
+  "fs.azure.sas.YOURWATCHDATACONTAINER.YOURSTORAGEACCOUNT.blob.core.windows.net",
+  "https://YOURSTORAGEACCOUNT.blob.core.windows.net/?sv=2018-03-28&ss=REST OF YOUR SAS TOKEN")
+spark.conf.set(
+  "fs.azure.sas.YOURTARGETDATACONTAINER.YOURSTORAGEACCOUNT.blob.core.windows.net",
+  "https://YOURSTORAGEACCOUNT.blob.core.windows.net/?sv=2018-03-28&ss=REST OF YOUR SAS TOKEN")
+
+//Create the schema based on what the watch app sends
+val watchSchema = (new StructType )
+    .add("heartRate",IntegerType)
+    .add("yAccel",IntegerType)
+    .add("xAccel",IntegerType)
+    .add("altitude",FloatType)
+    .add("cadence",IntegerType)
+    .add("heading",FloatType)
+    .add("xMag",IntegerType)
+    .add("yMag",IntegerType)
+    .add("zMag",IntegerType)
+    .add("power",IntegerType)
+    .add("pressure",FloatType)
+    .add("speed",FloatType)
+    .add("temp",IntegerType)
+    .add("latitude",FloatType)
+    .add("longitude",FloatType)
+
+//Import the data in AVRO format from Blob and extract the JSON payload using the above schema
+//Use wildcards in the path to select less data if needed
+val data = spark.read.format("avro").load("wasbs://YOURWATCHDATACONTAINER@YOURSTORAGEACCOUNT.blob.core.windows.net/YOURSTORAGEACCOUNT/watchdata/0/2019/*/*/*/*/*").selectExpr("cast (body as string) as json").select(from_json($"json", schema=watchSchema).as("readings"))
+//Select the data we need
+val data2 = data.select($"readings.*")
+//Output the data to Blob in CSV Format
+data2.write.csv("wasbs://YOURTARGETDATACONTAINER@YOURSTORAGEACCOUNT.blob.core.windows.net/csv")
+```
+
+![MLNEWADBCluster.png](images/MLNEWADBCluster.png)
+
+![MLNEWADBCluster2.png](images/MLNEWADBCluster2.png)
+
+![MLADBAttachCluster.png](images/MLADBAttachCluster.png)
+
+
+
+
 ## Data Factory
 
 # Machine Learning
 
 ## ML Studio
+
+![mlExperiment.png](images/mlExperiment.png)
+
+![MLImportData.png](images/MLImportData.png)
+
+![MLSelectColumns.png](images/MLSelectColumns.png)
+
+![MLSplitData.png](images/MLSplitData.png)
+
 
 # Testing
