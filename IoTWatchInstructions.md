@@ -7,6 +7,8 @@ You can find videos of this demo on Youtube at the following locations:
 [Part 1 - Intro](https://youtu.be/_39eKRNK3UU)
 [Part 2 - Initial Platform Build](https://youtu.be/9llyGjfKiLo)
 
+You can also find instructions on adding machine learning to the solution at [Watch Demo HR check with machine learning](https://github.com/davedoesdemos/ConnectIQ-Watch-IoT/blob/master/MLModelTraining.md)
+
 ## Prerequisites
 
 Before getting started with this app you'll need to have a few things. Firstly you'll need a compatible (Garmin device)[https://developer.garmin.com/connect-iq/compatible-devices/]. Different devices have different capabilities so not all of them will be able to send all metrics.
