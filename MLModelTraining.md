@@ -20,13 +20,23 @@ Next, sit in a chair and relax for a few minutes. Lying down will also work. Onc
 
 # Data Transformation
 
+For the transformation, we'll be using Azure Databricks with a transformation script written in Scala. There are many, many ways to achieve this transformation and I'll cover some of those in later demos. We'll be triggering the script from Azure Data Factory here. Although not strictly necessary, a normal next step would be to "industrialise" the process of training the model so that we can later re-train based on new data. This would involve a recurring job in Data Factory to copy new data for training.
+
 ## Azure Databricks
+
+First, create a new Azure Databricks workspace called "connectiq" and place it into your demo resource group with the othe components for the watch demo. Select the standard pricing tier and choose not to place the workspace on your network.
 
 ![MLNewDatabricks.png](images/MLNewDatabricks.png)
 
+Once the workspace is deployed, open it in the portal and choose Launch Workspace.
+
 ![MLADBLaunch.png](images/MLADBLaunch.png)
 
+Once in the workspace, click New Notebook to create a notebook. This is similar to a script, and allows you to place code into a document and see output from that code within the same document.
+
 ![MLNewNotebook1.png](images/MLNewNotebook1.png)
+
+Give the notebook a name such as ConvertAvroToCSV, and choose Scala as the language. Everything here can also be achived in Python so when writing your own scripts choose 
 
 ![MLNewNotebook2.png](images/MLNewNotebook2.png)
 
@@ -65,8 +75,8 @@ val watchSchema = (new StructType )
 //Import the data in AVRO format from Blob and extract the JSON payload using the above schema
 //Use wildcards in the path to select less data if needed
 val data = spark.read.format("avro").load("wasbs://YOURWATCHDATACONTAINER@YOURSTORAGEACCOUNT.blob.core.windows.net/YOURSTORAGEACCOUNT/watchdata/0/2019/*/*/*/*/*").selectExpr("cast (body as string) as json").select(from_json($"json", schema=watchSchema).as("readings"))
-//Select the data we need
-val data2 = data.select($"readings.*")
+//Select the data we need, in this case just heart rate data
+val data2 = data.select($"readings.heartRate")
 //Output the data to Blob in CSV Format
 data2.write.csv("wasbs://YOURTARGETDATACONTAINER@YOURSTORAGEACCOUNT.blob.core.windows.net/csv")
 ```
