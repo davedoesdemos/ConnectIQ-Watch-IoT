@@ -9,20 +9,73 @@ using Toybox.Sensor;
 using Toybox.Application;
 using Toybox.Position;
 using Toybox.Timer;
+using Toybox.Cryptography;
 
 class IoTWatchView extends WatchUi.View {
     var dataTimer = new Timer.Timer();
-    var string_HR;
-    //Fill in this variable with your REST API endpoint
-    var url = "https://<yournamespace>.servicebus.windows.net/<yourhub>/publishers/<deviceID>/messages";
-    //Fill in this variable with your SAS token (use the Event Hubs Signature Generator if you need to https://github.com/sandrinodimattia/RedDog/releases/tag/0.2.0.1
-    //Make sure the SAS url matches your actual URL. If using a publisher ID you can't use Basic Event Hub SKUs
-    var sas = "<Your SAS Token>";
+    //var string_HR;
+
+    var url = "https://yournamespace.servicebus.windows.net/yourhub/publishers/uniquestring/messages";
+    var sas = "SharedAccessSignature sr=https%3a%2f%2fyournamespace.servicebus.windows.net%2fyourhub%2fpublishers%2funiquestring%2fmessages&sig=signature%3d&se=61572283137&skn=KeyName";
+    
     //Fill in this variable with the time interval in ms that you want to use for submitting data. Lower values will cause more calls so will cost more!
     var timer = 1000;
     
     function initialize() {
         View.initialize();
+        
+        //get unique identifier to use as publisher string
+    	var mySettings = System.getDeviceSettings();
+		var publisher = mySettings.uniqueIdentifier;
+		
+		//set up the URL we will call
+        url = "https://" + Application.Properties.getValue("eHNamespace") + ".servicebus.windows.net/" + Application.Properties.getValue("eHEventHub") + "/publishers/" + publisher + "/messages";
+    	
+    	//Set up the SAS key for HMAC encryption    	
+    	var mySASKey = Application.Properties.getValue("eHSASKey");
+    	var keyConvertOptions = {
+        :fromRepresentation => StringUtil.REPRESENTATION_STRING_PLAIN_TEXT,
+        :toRepresentation => StringUtil.REPRESENTATION_BYTE_ARRAY,
+        :encoding => StringUtil.CHAR_ENCODING_UTF8
+    	};
+    	//Convert SAS Key to Byte Array
+    	var mySASKeyByteArray = StringUtil.convertEncodedString(mySASKey, keyConvertOptions);
+    	
+    	//Set up string to convert
+    	//current time
+    	var UTCNow = Time.now().value();
+    	//duration for key to last
+    	var duration = 2678400; //month
+    	var keyExpiry = (UTCNow + duration).toString();
+    	var stringToConvert = Comm.encodeURL(url) + "\n" + keyExpiry;
+    	var bytesToConvert = StringUtil.convertEncodedString(stringToConvert, keyConvertOptions);
+
+    	//Set up HMAC (HashBasedMessageAuthenticationCode)
+    	var HMACOptions = {
+        	:algorithm => Cryptography.HASH_SHA256,
+        	:key => mySASKeyByteArray
+    	};
+
+    	var HMAC = new Cryptography.HashBasedMessageAuthenticationCode(HMACOptions);
+    	//convert the string	
+    	HMAC.update(bytesToConvert);
+    	var encryptedBytes = HMAC.digest();
+
+    	HMAC.initialize(HMACOptions);
+    	//convert the string	
+    	HMAC.update(bytesToConvert);
+    	encryptedBytes = HMAC.digest();
+
+   		var keyConvertOptions2 = {
+        	:fromRepresentation => StringUtil.REPRESENTATION_BYTE_ARRAY,
+        	:toRepresentation => StringUtil.REPRESENTATION_STRING_BASE64,
+        	:encoding => StringUtil.CHAR_ENCODING_UTF8
+    		};
+    	
+    	var myoutput = StringUtil.convertEncodedString(encryptedBytes, keyConvertOptions2);
+
+    	sas = "SharedAccessSignature sr=" + Comm.encodeURL(url) + "&sig=" + Comm.encodeURL(myoutput) + "&se=" + keyExpiry + "&skn=" + Application.Properties.getValue("eHSASKeyName");
+     	
         // Set up a timer
         dataTimer.start(method(:timerCallback), timer, true);
     }
@@ -166,11 +219,15 @@ class IoTWatchView extends WatchUi.View {
         :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
     };
     Communications.makeWebRequest(url, params, options, method(:onReceive));
+    
+    //Troubleshooting
+    //System.println("URL: " + url);
+    //System.println("SAS Token: " + sas);
 }
     
     function onReceive(responseCode, data) {
-    //Uncommend for debug
-    //System.println("Response code: " + responseCode);
+    //Uncomment for debug
+    System.println("Response code: " + responseCode);
     //System.println("Data: " + data);
     }
 

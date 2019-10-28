@@ -1,0 +1,32 @@
+<resources>
+
+    <properties>
+        <property id="eHNamespace" type="string">yournamespace</property>
+        <property id="eHEventHub" type="string">YourEventHub</property>
+        <property id="eHSASKeyName" type="string">Your SAS Key Name</property>
+        <property id="eHSASKey" type="string">Your SAS Key</property>
+    </properties>
+
+    <strings>
+       <string id="eHNamespace_title">Your Namespace</string>
+       <string id="eHEventHub_title">Your Event Hub</string>
+       <string id="eHSASKeyName_title">SAS Key Name</string>
+       <string id="eHSASKey_title">SAS Key</string>
+    </strings>
+
+    <settings>
+        <setting propertyKey="@Properties.eHNamespace" title="@Strings.eHNamespace_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.eHEventHub" title="@Strings.eHEventHub_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.eHSASKeyName" title="@Strings.eHSASKeyName_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.eHSASKey" title="@Strings.eHSASKey_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+
+    </settings>
+</resources>
