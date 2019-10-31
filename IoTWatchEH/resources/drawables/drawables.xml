@@ -1,6 +1,11 @@
 <drawables>
-    <bitmap id="LauncherIcon" filename="D3.36.png" />
-    <drawable-list id="mainbg" x="0" y="0" foreground="0xffffff">
+	<drawable-list id="whitebg" x="0" y="0" background="0xffffff">
         <shape type="rectangle" width="fill" height="fill" />
+    </drawable-list>
+    <bitmap id="LauncherIcon" filename="D3.36.png" />
+    <drawable-list id="grid3x2">
+        <shape type="rectangle" x="119" y="80" width="2" height="80" color="Gfx.COLOR_RED" />
+        <shape type="rectangle" x="0" y="79" width="240" height="2" color="Gfx.COLOR_RED" />
+        <shape type="rectangle" x="0" y="159" width="240" height="2" color="Gfx.COLOR_RED" />
     </drawable-list>
 </drawables>

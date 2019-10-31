@@ -1,134 +1,174 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="24" pc="268435456" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="25" pc="268435460" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="28" pc="268435478" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="29" pc="268435495" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="32" pc="268435505" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="35" pc="268435593" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="36" pc="268435621" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="42" pc="268435695" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="46" pc="268435718" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="48" pc="268435746" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="49" pc="268435753" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="50" pc="268435769" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="51" pc="268435803" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="54" pc="268435826" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="59" pc="268435864" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="61" pc="268435894" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="62" pc="268435908" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="64" pc="268435921" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="66" pc="268435935" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="67" pc="268435949" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="69" pc="268435962" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="75" pc="268436036" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="77" pc="268436059" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="80" pc="268436162" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="83" pc="268436207" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="84" pc="268436211" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="85" pc="268436228" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="86" pc="268436245" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="87" pc="268436252" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="88" pc="268436259" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="89" pc="268436266" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="90" pc="268436273" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="91" pc="268436280" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="92" pc="268436287" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="93" pc="268436294" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="94" pc="268436301" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="95" pc="268436308" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="96" pc="268436315" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="97" pc="268436322" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="98" pc="268436329" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="99" pc="268436336" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="100" pc="268436343" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="104" pc="268436350" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="105" pc="268436377" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="106" pc="268436387" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="107" pc="268436397" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="110" pc="268436410" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="111" pc="268436417" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="114" pc="268436424" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="115" pc="268436451" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="118" pc="268436464" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="121" pc="268436471" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="122" pc="268436498" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="125" pc="268436511" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="128" pc="268436518" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="129" pc="268436545" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="132" pc="268436558" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="135" pc="268436565" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="136" pc="268436592" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="139" pc="268436605" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="142" pc="268436612" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="143" pc="268436639" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="144" pc="268436649" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="145" pc="268436659" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="146" pc="268436669" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="149" pc="268436682" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="150" pc="268436689" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="151" pc="268436696" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="154" pc="268436703" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="155" pc="268436730" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="158" pc="268436743" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="161" pc="268436750" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="162" pc="268436777" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="165" pc="268436790" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="168" pc="268436797" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="169" pc="268436824" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="172" pc="268436837" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="175" pc="268436844" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="176" pc="268436871" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="179" pc="268436884" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="182" pc="268436891" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="183" pc="268436918" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="184" pc="268436937" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="185" pc="268436947" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="188" pc="268436960" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="189" pc="268436967" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="195" pc="268436974" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="212" pc="268437267" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="216" pc="268437313" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="221" pc="268437375" symbol="timerCallback"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="5" lineNum="228" pc="268437422" symbol="onReceive"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="5" lineNum="230" pc="268437426" symbol="onReceive"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="6" lineNum="235" pc="268437451" symbol="onLayout"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="6" lineNum="236" pc="268437455" symbol="onLayout"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="7" lineNum="239" pc="268437493" symbol="onShow"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="8" lineNum="243" pc="268437498" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="8" lineNum="244" pc="268437502" symbol="onUpdate"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="248" pc="268437523" symbol="onHide"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchApp.mc" id="11" lineNum="6" pc="268437528" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchApp.mc" id="11" lineNum="7" pc="268437532" symbol="initialize"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchApp.mc" id="12" lineNum="11" pc="268437551" symbol="onStart"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchApp.mc" id="13" lineNum="15" pc="268437556" symbol="onStop"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchApp.mc" id="14" lineNum="19" pc="268437561" symbol="getInitialView"/>
-<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchApp.mc" id="14" lineNum="20" pc="268437565" symbol="getInitialView"/>
-<entry filename="Rez" id="18" lineNum="12" pc="268437603" symbol="initialize"/>
-<entry filename="Rez" id="18" lineNum="13" pc="268437607" symbol="initialize"/>
-<entry filename="Rez" id="19" lineNum="16" pc="268437632" symbol="draw"/>
-<entry filename="Rez" id="19" lineNum="17" pc="268437636" symbol="draw"/>
-<entry filename="Rez" id="19" lineNum="19" pc="268437665" symbol="draw"/>
-<entry filename="Rez" id="23" lineNum="36" pc="268437698" symbol="MainLayout"/>
-<entry filename="Rez" id="23" lineNum="38" pc="268437710" symbol="MainLayout"/>
-<entry filename="Rez" id="23" lineNum="39" pc="268437750" symbol="MainLayout"/>
-<entry filename="Rez" id="23" lineNum="40" pc="268437763" symbol="MainLayout"/>
-<entry filename="Rez" id="23" lineNum="42" pc="268437779" symbol="MainLayout"/>
-<entry filename="Rez" id="23" lineNum="43" pc="268437898" symbol="MainLayout"/>
-<entry filename="Rez" id="23" lineNum="45" pc="268437950" symbol="MainLayout"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="35" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="36" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="39" pc="268435478" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="40" pc="268435495" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="43" pc="268435505" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="46" pc="268435593" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="47" pc="268435621" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="53" pc="268435695" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="57" pc="268435718" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="59" pc="268435746" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="60" pc="268435753" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="61" pc="268435769" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="62" pc="268435803" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="65" pc="268435826" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="70" pc="268435864" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="72" pc="268435894" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="73" pc="268435908" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="75" pc="268435921" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="77" pc="268435935" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="78" pc="268435949" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="80" pc="268435962" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="86" pc="268436036" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="88" pc="268436059" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="3" lineNum="91" pc="268436162" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="94" pc="268436207" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="95" pc="268436211" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="96" pc="268436228" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="97" pc="268436245" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="98" pc="268436252" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="99" pc="268436259" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="100" pc="268436266" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="101" pc="268436273" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="102" pc="268436280" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="103" pc="268436287" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="104" pc="268436294" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="105" pc="268436301" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="106" pc="268436308" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="107" pc="268436315" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="108" pc="268436322" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="109" pc="268436329" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="110" pc="268436336" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="111" pc="268436343" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="115" pc="268436350" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="116" pc="268436377" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="117" pc="268436387" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="118" pc="268436397" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="121" pc="268436410" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="122" pc="268436417" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="125" pc="268436424" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="126" pc="268436451" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="129" pc="268436464" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="132" pc="268436471" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="133" pc="268436498" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="136" pc="268436511" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="139" pc="268436518" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="140" pc="268436545" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="143" pc="268436558" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="146" pc="268436565" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="147" pc="268436592" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="150" pc="268436605" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="153" pc="268436612" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="154" pc="268436639" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="155" pc="268436649" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="156" pc="268436659" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="157" pc="268436669" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="160" pc="268436682" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="161" pc="268436689" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="162" pc="268436696" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="165" pc="268436703" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="166" pc="268436730" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="169" pc="268436743" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="172" pc="268436750" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="173" pc="268436777" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="176" pc="268436790" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="179" pc="268436797" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="180" pc="268436824" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="183" pc="268436837" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="186" pc="268436844" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="187" pc="268436871" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="190" pc="268436884" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="193" pc="268436891" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="194" pc="268436918" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="195" pc="268436937" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="196" pc="268436947" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="199" pc="268436960" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="200" pc="268436967" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="206" pc="268436974" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="225" pc="268437267" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="226" pc="268437286" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="227" pc="268437305" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="229" pc="268437324" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="233" pc="268437370" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="4" lineNum="238" pc="268437432" symbol="timerCallback"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="5" lineNum="245" pc="268437479" symbol="onReceive"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="5" lineNum="250" pc="268437483" symbol="onReceive"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="5" lineNum="258" pc="268437542" symbol="onReceive"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="5" lineNum="259" pc="268437561" symbol="onReceive"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="5" lineNum="252" pc="268437567" symbol="onReceive"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="5" lineNum="253" pc="268437580" symbol="onReceive"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="5" lineNum="255" pc="268437583" symbol="onReceive"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="5" lineNum="256" pc="268437596" symbol="onReceive"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="5" lineNum="262" pc="268437602" symbol="onReceive"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="6" lineNum="266" pc="268437619" symbol="onLayout"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="6" lineNum="267" pc="268437623" symbol="onLayout"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="7" lineNum="270" pc="268437661" symbol="onShow"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="8" lineNum="275" pc="268437666" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="8" lineNum="276" pc="268437670" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="8" lineNum="277" pc="268437690" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="8" lineNum="279" pc="268437702" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="8" lineNum="287" pc="268437851" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="8" lineNum="295" pc="268437993" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="8" lineNum="303" pc="268438135" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="8" lineNum="311" pc="268438284" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="8" lineNum="312" pc="268438304" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="8" lineNum="313" pc="268438324" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="8" lineNum="314" pc="268438344" symbol="onUpdate"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchView.mc" id="9" lineNum="318" pc="268438365" symbol="onHide"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchApp.mc" id="11" lineNum="6" pc="268438370" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchApp.mc" id="11" lineNum="7" pc="268438374" symbol="initialize"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchApp.mc" id="12" lineNum="11" pc="268438393" symbol="onStart"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchApp.mc" id="13" lineNum="15" pc="268438398" symbol="onStop"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchApp.mc" id="14" lineNum="19" pc="268438403" symbol="getInitialView"/>
+<entry filename="C:\\Users\\dalusty\\Documents\\Repos Local Projects\\IoTWatchEH\\source\\IoTWatchApp.mc" id="14" lineNum="20" pc="268438407" symbol="getInitialView"/>
+<entry filename="Rez" id="18" lineNum="11" pc="268438445" symbol="initialize"/>
+<entry filename="Rez" id="18" lineNum="12" pc="268438449" symbol="initialize"/>
+<entry filename="Rez" id="19" lineNum="15" pc="268438474" symbol="draw"/>
+<entry filename="Rez" id="19" lineNum="16" pc="268438478" symbol="draw"/>
+<entry filename="Rez" id="19" lineNum="17" pc="268438507" symbol="draw"/>
+<entry filename="Rez" id="19" lineNum="18" pc="268438539" symbol="draw"/>
+<entry filename="Rez" id="19" lineNum="20" pc="268438568" symbol="draw"/>
+<entry filename="Rez" id="21" lineNum="33" pc="268438601" symbol="initialize"/>
+<entry filename="Rez" id="21" lineNum="34" pc="268438605" symbol="initialize"/>
+<entry filename="Rez" id="22" lineNum="37" pc="268438630" symbol="draw"/>
+<entry filename="Rez" id="22" lineNum="39" pc="268438634" symbol="draw"/>
+<entry filename="Rez" id="22" lineNum="40" pc="268438670" symbol="draw"/>
+<entry filename="Rez" id="22" lineNum="42" pc="268438702" symbol="draw"/>
+<entry filename="Rez" id="22" lineNum="43" pc="268438738" symbol="draw"/>
+<entry filename="Rez" id="22" lineNum="45" pc="268438770" symbol="draw"/>
+<entry filename="Rez" id="22" lineNum="46" pc="268438806" symbol="draw"/>
+<entry filename="Rez" id="26" lineNum="63" pc="268438839" symbol="MainLayout"/>
+<entry filename="Rez" id="26" lineNum="65" pc="268438851" symbol="MainLayout"/>
+<entry filename="Rez" id="26" lineNum="66" pc="268438891" symbol="MainLayout"/>
+<entry filename="Rez" id="26" lineNum="67" pc="268438904" symbol="MainLayout"/>
+<entry filename="Rez" id="26" lineNum="69" pc="268438920" symbol="MainLayout"/>
+<entry filename="Rez" id="26" lineNum="70" pc="268438960" symbol="MainLayout"/>
+<entry filename="Rez" id="26" lineNum="71" pc="268438973" symbol="MainLayout"/>
+<entry filename="Rez" id="26" lineNum="73" pc="268438989" symbol="MainLayout"/>
+<entry filename="Rez" id="26" lineNum="74" pc="268439141" symbol="MainLayout"/>
+<entry filename="Rez" id="26" lineNum="75" pc="268439293" symbol="MainLayout"/>
+<entry filename="Rez" id="26" lineNum="76" pc="268439445" symbol="MainLayout"/>
+<entry filename="Rez" id="26" lineNum="78" pc="268439597" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
+<entry field="true" id="30" symbol="dispField4"/>
 <entry id="8388644" module="true" symbol="System"/>
+<entry field="true" id="29" symbol="dispField3"/>
+<entry field="true" id="28" symbol="dispField2"/>
+<entry field="true" id="27" symbol="dispField1"/>
 <entry field="true" id="8388959" symbol="cadence"/>
 <entry id="9" object="true" symbol="IoTWatchView"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389349" symbol="justification"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry field="true" id="8390387" symbol="encoding"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8388643" module="true" symbol="Sensor"/>
 <entry field="true" id="8388965" symbol="heading"/>
-<entry field="true" id="23" symbol="url"/>
+<entry field="true" id="33" symbol="url"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389068" method="true" symbol="draw"/>
 <entry id="8388640" module="true" symbol="Lang"/>
@@ -139,17 +179,16 @@
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="8388924" module="true" symbol="Gregorian"/>
 <entry id="8390551" symbol="fromRepresentation"/>
-<entry field="true" id="25" symbol="timer"/>
+<entry field="true" id="32" symbol="timer"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry id="15" object="true" symbol="mainbg"/>
-<entry field="true" id="21" symbol="AppName"/>
+<entry field="true" id="24" symbol="AppName"/>
 <entry id="8390520" symbol="algorithm"/>
 <entry id="8389594" symbol="headers"/>
 <entry field="true" id="8389605" symbol="accel"/>
 <entry id="8390522" symbol="key"/>
 <entry field="true" id="8388964" symbol="pressure"/>
-<entry field="true" id="20" symbol="eHSASKey_title"/>
-<entry field="true" id="14" symbol="LauncherIcon"/>
+<entry field="true" id="23" symbol="eHSASKey_title"/>
+<entry field="true" id="13" symbol="LauncherIcon"/>
 <entry id="8388646" module="true" object="true" symbol="Timer"/>
 <entry id="8388786" method="true" symbol="method"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
@@ -160,32 +199,39 @@
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry field="true" id="8388963" symbol="altitude"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="17" symbol="eHNamespace_title"/>
-<entry field="true" id="13" symbol="id_monkey"/>
+<entry field="true" id="18" symbol="eHNamespace_title"/>
 <entry id="8390501" module="true" symbol="Cryptography"/>
 <entry field="true" id="8389310" symbol="position"/>
+<entry id="8389348" symbol="font"/>
+<entry field="true" id="26" symbol="status"/>
+<entry id="8389347" symbol="color"/>
 <entry field="true" id="8388958" symbol="speed"/>
 <entry id="8390552" symbol="toRepresentation"/>
 <entry id="11" module="true" symbol="Layouts"/>
 <entry id="8388642" module="true" symbol="Position"/>
-<entry field="true" id="18" symbol="eHSASKeyName_title"/>
+<entry id="15" object="true" symbol="grid3x2"/>
+<entry field="true" id="19" symbol="eHSASKeyName_title"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="19" symbol="eHEventHub_title"/>
-<entry id="8389345" symbol="rezId"/>
+<entry field="true" id="20" symbol="eHEventHub_title"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry id="26" method="true" symbol="timerCallback"/>
+<entry id="35" method="true" symbol="timerCallback"/>
 <entry id="8389844" symbol="responseType"/>
-<entry field="true" id="22" symbol="dataTimer"/>
-<entry field="true" id="8389063" symbol="identifier"/>
+<entry field="true" id="31" symbol="dataTimer"/>
+<entry id="8389346" symbol="text"/>
 <entry field="true" id="8389606" symbol="mag"/>
 <entry id="12" module="true" symbol="Menus"/>
 <entry field="true" id="8388960" symbol="heartRate"/>
+<entry id="14" object="true" symbol="whitebg"/>
 <entry field="true" id="8388961" symbol="power"/>
-<entry id="27" method="true" symbol="onReceive"/>
+<entry id="36" method="true" symbol="onReceive"/>
+<entry field="true" id="25" symbol="field4"/>
+<entry field="true" id="21" symbol="field3"/>
+<entry field="true" id="22" symbol="field2"/>
+<entry field="true" id="17" symbol="field1"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-<entry id="28" symbol="temp"/>
+<entry id="37" symbol="temp"/>
 <entry id="8388635" module="true" symbol="Application"/>
-<entry field="true" id="24" symbol="sas"/>
+<entry field="true" id="34" symbol="sas"/>
 </symbolTable>
 <localVars>
 <entry endPc="268436206" name="keyConvertOptions2" stackId="14" startPc="268435460"/>
@@ -206,50 +252,56 @@
 <entry endPc="268436407" name="accel" stackId="18" startPc="268436377"/>
 <entry endPc="268436679" name="mag" stackId="19" startPc="268436639"/>
 <entry endPc="268436957" name="location" stackId="20" startPc="268436918"/>
-<entry endPc="268437421" name="cadence" stackId="7" startPc="268436211"/>
-<entry endPc="268437421" name="headers" stackId="22" startPc="268436211"/>
-<entry endPc="268437421" name="options" stackId="23" startPc="268436211"/>
-<entry endPc="268437421" name="sensorInfo" stackId="1" startPc="268436211"/>
-<entry endPc="268437421" name="heading" stackId="8" startPc="268436211"/>
-<entry endPc="268437421" name="xMag" stackId="9" startPc="268436211"/>
-<entry endPc="268437421" name="pressure" stackId="13" startPc="268436211"/>
-<entry endPc="268437421" name="altitude" stackId="6" startPc="268436211"/>
-<entry endPc="268437421" name="power" stackId="12" startPc="268436211"/>
-<entry endPc="268437421" name="yMag" stackId="10" startPc="268436211"/>
-<entry endPc="268437421" name="xAccel" stackId="3" startPc="268436211"/>
-<entry endPc="268437421" name="longitude" stackId="17" startPc="268436211"/>
-<entry endPc="268437421" name="latitude" stackId="16" startPc="268436211"/>
-<entry endPc="268437421" name="zMag" stackId="11" startPc="268436211"/>
-<entry endPc="268437421" name="yAccel" stackId="4" startPc="268436211"/>
-<entry endPc="268437421" name="hR" stackId="5" startPc="268436211"/>
-<entry endPc="268437421" name="positionInfo" stackId="2" startPc="268436211"/>
-<entry endPc="268437421" name="speed" stackId="14" startPc="268436211"/>
-<entry endPc="268437421" name="temp" stackId="15" startPc="268436211"/>
-<entry endPc="268437421" name="params" stackId="21" startPc="268436211"/>
-<entry endPc="268437451" name="responseCode" stackId="1" startPc="268437422"/>
-<entry endPc="268437451" name="data" stackId="2" startPc="268437422"/>
-<entry endPc="268437493" name="dc" stackId="1" startPc="268437451"/>
-<entry endPc="268437523" name="dc" stackId="1" startPc="268437498"/>
-<entry endPc="268437556" name="state" stackId="1" startPc="268437551"/>
-<entry endPc="268437561" name="state" stackId="1" startPc="268437556"/>
-<entry endPc="268437698" name="dc" stackId="1" startPc="268437632"/>
-<entry endPc="268437977" name="rez_cmp_local_custom_drawable_mainbg" stackId="2" startPc="268437710"/>
-<entry endPc="268437977" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268437710"/>
-<entry endPc="268437978" name="dc" stackId="1" startPc="268437698"/>
+<entry endPc="268437478" name="cadence" stackId="7" startPc="268436211"/>
+<entry endPc="268437478" name="headers" stackId="22" startPc="268436211"/>
+<entry endPc="268437478" name="options" stackId="23" startPc="268436211"/>
+<entry endPc="268437478" name="sensorInfo" stackId="1" startPc="268436211"/>
+<entry endPc="268437478" name="heading" stackId="8" startPc="268436211"/>
+<entry endPc="268437478" name="xMag" stackId="9" startPc="268436211"/>
+<entry endPc="268437478" name="pressure" stackId="13" startPc="268436211"/>
+<entry endPc="268437478" name="altitude" stackId="6" startPc="268436211"/>
+<entry endPc="268437478" name="power" stackId="12" startPc="268436211"/>
+<entry endPc="268437478" name="yMag" stackId="10" startPc="268436211"/>
+<entry endPc="268437478" name="xAccel" stackId="3" startPc="268436211"/>
+<entry endPc="268437478" name="longitude" stackId="17" startPc="268436211"/>
+<entry endPc="268437478" name="latitude" stackId="16" startPc="268436211"/>
+<entry endPc="268437478" name="zMag" stackId="11" startPc="268436211"/>
+<entry endPc="268437478" name="yAccel" stackId="4" startPc="268436211"/>
+<entry endPc="268437478" name="hR" stackId="5" startPc="268436211"/>
+<entry endPc="268437478" name="positionInfo" stackId="2" startPc="268436211"/>
+<entry endPc="268437478" name="speed" stackId="14" startPc="268436211"/>
+<entry endPc="268437478" name="temp" stackId="15" startPc="268436211"/>
+<entry endPc="268437478" name="params" stackId="21" startPc="268436211"/>
+<entry endPc="268437619" name="responseCode" stackId="1" startPc="268437479"/>
+<entry endPc="268437619" name="data" stackId="2" startPc="268437479"/>
+<entry endPc="268437661" name="dc" stackId="1" startPc="268437619"/>
+<entry endPc="268438365" name="dc" stackId="1" startPc="268437666"/>
+<entry endPc="268438398" name="state" stackId="1" startPc="268438393"/>
+<entry endPc="268438403" name="state" stackId="1" startPc="268438398"/>
+<entry endPc="268438601" name="dc" stackId="1" startPc="268438474"/>
+<entry endPc="268438839" name="dc" stackId="1" startPc="268438630"/>
+<entry endPc="268439664" name="rez_cmp_local_text_1131596226" stackId="5" startPc="268438851"/>
+<entry endPc="268439664" name="rez_cmp_local_custom_drawable_whitebg" stackId="2" startPc="268438851"/>
+<entry endPc="268439664" name="rez_cmp_local_text_8699604541" stackId="7" startPc="268438851"/>
+<entry endPc="268439664" name="rez_cmp_local_text_4928736391" stackId="4" startPc="268438851"/>
+<entry endPc="268439664" name="rez_cmp_local_text_2111757372" stackId="6" startPc="268438851"/>
+<entry endPc="268439664" name="rez_cmp_local_custom_drawable_grid3x2" stackId="3" startPc="268438851"/>
+<entry endPc="268439665" name="dc" stackId="1" startPc="268438839"/>
 </localVars>
 <annotations/>
 <dataEntryOffsetMappings>
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
 <dataEntry offset="166" parentId="globals" symbolId="Rez" type="module"/>
 <dataEntry offset="245" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="300" parentId="Drawables" symbolId="mainbg" type="class"/>
-<dataEntry offset="355" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="386" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="417" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="456" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="487" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="558" parentId="globals" symbolId="IoTWatchApp" type="class"/>
-<dataEntry offset="629" parentId="globals" symbolId="IoTWatchView" type="class"/>
+<dataEntry offset="300" parentId="Drawables" symbolId="grid3x2" type="class"/>
+<dataEntry offset="355" parentId="Drawables" symbolId="whitebg" type="class"/>
+<dataEntry offset="410" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="441" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="472" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="511" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="542" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="645" parentId="globals" symbolId="IoTWatchApp" type="class"/>
+<dataEntry offset="716" parentId="globals" symbolId="IoTWatchView" type="class"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" name="initialize" parent="IoTWatchView">
@@ -291,10 +343,17 @@
 <functionEntry accessMode="public" name="getInitialView" parent="IoTWatchApp">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="mainbg">
+<functionEntry accessMode="public" name="initialize" parent="whitebg">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="draw" parent="mainbg">
+<functionEntry accessMode="public" name="draw" parent="whitebg">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="grid3x2">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="grid3x2">
 <param id="dc"/>
 <documentation/>
 </functionEntry>

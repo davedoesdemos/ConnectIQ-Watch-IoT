@@ -12,18 +12,29 @@ using Toybox.Timer;
 using Toybox.Cryptography;
 
 class IoTWatchView extends WatchUi.View {
+	//set up display variables
+	var status = "Waiting";
+	var field2 = "0";
+	var field3 = "0";
+	var field4 = "0";
+	//set up the text labels
+	hidden var dispField1;
+	hidden var dispField2;
+	hidden var dispField3;
+	hidden var dispField4;
+	
+	//Set up the timer
     var dataTimer = new Timer.Timer();
-    //var string_HR;
+    //Fill in this variable with the time interval in ms that you want to use for submitting data. Lower values will cause more calls so will cost more!
+    var timer = 1000;
 
+	//Set up the variables for the API call. These will be overwritten by the app settings but I filled in here to show an example of correct strings
     var url = "https://yournamespace.servicebus.windows.net/yourhub/publishers/uniquestring/messages";
     var sas = "SharedAccessSignature sr=https%3a%2f%2fyournamespace.servicebus.windows.net%2fyourhub%2fpublishers%2funiquestring%2fmessages&sig=signature%3d&se=61572283137&skn=KeyName";
     
-    //Fill in this variable with the time interval in ms that you want to use for submitting data. Lower values will cause more calls so will cost more!
-    var timer = 1000;
-    
     function initialize() {
         View.initialize();
-        
+
         //get unique identifier to use as publisher string
     	var mySettings = System.getDeviceSettings();
 		var publisher = mySettings.uniqueIdentifier;
@@ -209,6 +220,12 @@ class IoTWatchView extends WatchUi.View {
         "latitude" => latitude.toFloat(),
         "longitude" => longitude.toFloat()
     };
+    
+    //set the display field variables
+    field2 = xAccel.toString();
+    field3 = yAccel.toString();
+    field4 = hR.toString();
+    
     var headers = {
         "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON,
         "Authorization" => sas
@@ -227,9 +244,23 @@ class IoTWatchView extends WatchUi.View {
     
     function onReceive(responseCode, data) {
     //Uncomment for debug
-    System.println("Response code: " + responseCode);
+    //System.println("Response code: " + responseCode);
     //System.println("Data: " + data);
+
+    switch (responseCode.toString()) {
+    	case "-400":
+    	status = "OK";
+    	break;
+    	case "201":
+    	status = "OK";
+    	break;
+    	default:
+    	status = responseCode.toString();
+    	break;
     }
+    
+   	WatchUi.requestUpdate();
+   }
 
     // Load your resources here
     function onLayout(dc) {
@@ -237,11 +268,50 @@ class IoTWatchView extends WatchUi.View {
     }
 
     function onShow() {
+
     }
 
     // Update the view
     function onUpdate(dc) {
-      View.onUpdate(dc);
+    	View.onUpdate(dc);
+    	dc.clear();
+        // Call the parent onUpdate function to redraw the layout
+        dispField1 = new WatchUi.Text({
+            :text=>status,
+            :color=>Graphics.COLOR_BLACK,
+            :font=>Graphics.FONT_LARGE,
+            :locX =>WatchUi.LAYOUT_HALIGN_CENTER,
+            :locY=>30,
+            :justification=>Graphics.TEXT_JUSTIFY_CENTER
+        });
+        dispField2 = new WatchUi.Text({
+            :text=>field2,
+            :color=>Graphics.COLOR_BLACK,
+            :font=>Graphics.FONT_LARGE,
+            :locX =>60,
+            :locY=>110,
+            :justification=>Graphics.TEXT_JUSTIFY_CENTER
+        });
+        dispField3 = new WatchUi.Text({
+            :text=>field3,
+            :color=>Graphics.COLOR_BLACK,
+            :font=>Graphics.FONT_LARGE,
+            :locX =>180,
+            :locY=>110,
+            :justification=>Graphics.TEXT_JUSTIFY_CENTER
+        });
+        dispField4 = new WatchUi.Text({
+            :text=>field4,
+            :color=>Graphics.COLOR_BLACK,
+            :font=>Graphics.FONT_LARGE,
+            :locX =>WatchUi.LAYOUT_HALIGN_CENTER,
+            :locY=>190,
+            :justification=>Graphics.TEXT_JUSTIFY_CENTER
+        });
+       dispField1.draw(dc);
+       dispField2.draw(dc);
+       dispField3.draw(dc);
+       dispField4.draw(dc);
         
     }
 

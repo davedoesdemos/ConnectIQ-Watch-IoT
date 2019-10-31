@@ -1,3 +1,7 @@
 <strings>
     <string id="AppName">IoTWatchEH</string>
+    <string id="field1">Status</string>
+    <string id="field2">xAccel</string>
+    <string id="field3">yAccel</string>
+    <string id="field4">HR</string>
 </strings>

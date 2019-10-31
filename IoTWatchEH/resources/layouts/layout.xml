@@ -1,4 +1,8 @@
 <layout id="MainLayout">
-    <drawable id="mainbg" />
-    <bitmap id="id_monkey" x="center" y="center" filename="../drawables/D3.240.png" />
+	<drawable id="whitebg" />
+    <drawable id="grid3x2" /> 
+    <label x="center" y="2" text="@Strings.field1" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" />
+    <label x="60" y="81" text="@Strings.field2" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" />
+    <label x="180" y="81" text="@Strings.field3" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" />
+    <label x="center" y="161" text="@Strings.field4" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_TINY" />
 </layout>
