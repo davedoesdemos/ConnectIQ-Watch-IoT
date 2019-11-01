@@ -5,6 +5,8 @@
         <property id="eHEventHub" type="string">YourEventHub</property>
         <property id="eHSASKeyName" type="string">Your SAS Key Name</property>
         <property id="eHSASKey" type="string">Your SAS Key</property>
+        <property id="userID" type="string">Your User ID</property>
+        <property id="timer" type="number">1000</property>
     </properties>
 
     <strings>
@@ -12,6 +14,8 @@
        <string id="eHEventHub_title">Your Event Hub</string>
        <string id="eHSASKeyName_title">SAS Key Name</string>
        <string id="eHSASKey_title">SAS Key</string>
+       <string id="userID_title">User ID</string>
+       <string id="timer_title">Timer Delay</string>
     </strings>
 
     <settings>
@@ -26,6 +30,12 @@
         </setting>
         <setting propertyKey="@Properties.eHSASKey" title="@Strings.eHSASKey_title">
             <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.userID" title="@Strings.userID_title">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+        <setting propertyKey="@Properties.timer" title="@Strings.timer_title">
+            <settingConfig type="numeric" />
         </setting>
 
     </settings>

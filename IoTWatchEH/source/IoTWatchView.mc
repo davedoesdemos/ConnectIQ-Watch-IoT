@@ -88,6 +88,7 @@ class IoTWatchView extends WatchUi.View {
     	sas = "SharedAccessSignature sr=" + Comm.encodeURL(url) + "&sig=" + Comm.encodeURL(myoutput) + "&se=" + keyExpiry + "&skn=" + Application.Properties.getValue("eHSASKeyName");
      	
         // Set up a timer
+        timer = Application.Properties.getValue("timer");
         dataTimer.start(method(:timerCallback), timer, true);
     }
     
@@ -109,138 +110,140 @@ class IoTWatchView extends WatchUi.View {
         var temp = 0;
         var latitude = 0;
         var longitude = 0;
+        var userID = Application.Properties.getValue("userID");
+        
     
-    //Collect Data
-    //Accelerometer
-    if (sensorInfo has :accel && sensorInfo.accel != null) {
-        var accel = sensorInfo.accel;
-        xAccel = accel[0];
-        yAccel = accel[1];
-    }
-    else {
-        xAccel = 0;
-        yAccel = 0;
-    }
-    //Heartrate
-    if (sensorInfo has :heartRate && sensorInfo.heartRate != null) {
-        hR = sensorInfo.heartRate;
-    }
-    else {
-        hR = 0;
-    }
-    //Altitude
-    if (sensorInfo has :altitude && sensorInfo.altitude != null) {
-        altitude = sensorInfo.altitude;
-    }
-    else {
-        altitude = 0;
-    }
-    //Cadence
-    if (sensorInfo has :cadence && sensorInfo.cadence != null) {
-        cadence = sensorInfo.cadence;
-    }
-    else {
-        cadence = 0;
-    }
-    //heading
-    if (sensorInfo has :heading && sensorInfo.heading != null) {
-        heading = sensorInfo.heading;
-    }
-    else {
-        heading = 0;
-    }
-    //magnetometer
-    if (sensorInfo has :mag && sensorInfo.mag != null) {
-        var mag = sensorInfo.mag;
-        xMag = mag[0];
-        yMag = mag[1];
-        zMag = mag[2];
-    }
-    else {
-        xMag = 0;
-        yMag = 1;
-        zMag = 2;
-    }
-    //Power
-    if (sensorInfo has :power && sensorInfo.power != null) {
-        power = sensorInfo.power;
-    }
-    else {
-        power = 0;
-    }
-    //Pressure
-    if (sensorInfo has :pressure && sensorInfo.pressure != null) {
-        pressure = sensorInfo.pressure;
-    }
-    else {
-        pressure = 0;
-    }
-    //Speed
-    if (sensorInfo has :speed && sensorInfo.speed != null) {
-        speed = sensorInfo.speed;
-    }
-    else {
-        speed = 0;
-    }
-    //Temperature
-    if (sensorInfo has :temp && sensorInfo.temp != null) {
-        temp = sensorInfo.temp;
-    }
-    else {
-        temp = 0;
-    }
-    //Position
-    if (positionInfo has :position && positionInfo.position != null) {
-        var location = positionInfo.position.toDegrees();
-        latitude = location[0];
-        longitude = location[1];
-    }
-    else {
-        latitude = 0;
-        longitude = 0;
+    	//Collect Data
+    	//Accelerometer
+    	if (sensorInfo has :accel && sensorInfo.accel != null) {
+	        var accel = sensorInfo.accel;
+        	xAccel = accel[0];
+        	yAccel = accel[1];
+    	}
+    	else {
+	        xAccel = 0;
+        	yAccel = 0;
+    	}
+    	//Heartrate
+    	if (sensorInfo has :heartRate && sensorInfo.heartRate != null) {
+	        hR = sensorInfo.heartRate;
+	    }
+	    else {
+        	hR = 0;
+    	}
+    	//Altitude
+    	if (sensorInfo has :altitude && sensorInfo.altitude != null) {
+	        altitude = sensorInfo.altitude;
+	    }
+	    else {
+        	altitude = 0;
+    	}
+    	//Cadence
+    	if (sensorInfo has :cadence && sensorInfo.cadence != null) {
+	        cadence = sensorInfo.cadence;
+	    }
+	    else {
+        	cadence = 0;
+    	}
+    	//heading
+    	if (sensorInfo has :heading && sensorInfo.heading != null) {
+	        heading = sensorInfo.heading;
+	    }
+	    else {
+        	heading = 0;
+    	}
+    	//magnetometer
+    	if (sensorInfo has :mag && sensorInfo.mag != null) {
+	        var mag = sensorInfo.mag;
+        	xMag = mag[0];
+        	yMag = mag[1];
+        	zMag = mag[2];
+    	}
+    	else {
+	        xMag = 0;
+        	yMag = 1;
+        	zMag = 2;
+    	}
+    	//Power
+    	if (sensorInfo has :power && sensorInfo.power != null) {
+	        power = sensorInfo.power;
+	    }
+	    else {
+        	power = 0;
+    	}
+    	//Pressure
+    	if (sensorInfo has :pressure && sensorInfo.pressure != null) {
+	        pressure = sensorInfo.pressure;
+	    }
+	    else {
+        	pressure = 0;
+    	}
+    	//Speed
+    	if (sensorInfo has :speed && sensorInfo.speed != null) {
+	        speed = sensorInfo.speed;
+	    }
+	    else {
+        	speed = 0;
+    	}
+    	//Temperature
+    	if (sensorInfo has :temp && sensorInfo.temp != null) {
+	        temp = sensorInfo.temp;
+	    }
+	    else {
+        	temp = 0;
+    	}
+    	//Position
+    	if (positionInfo has :position && positionInfo.position != null) {
+	        var location = positionInfo.position.toDegrees();
+        	latitude = location[0];
+        	longitude = location[1];
+    	}
+    	else {
+	        latitude = 0;
+        	longitude = 0;
+	    }
 
-    }
+	    //Send the data to the REST API
 
-    //Send the data to the REST API
-
-    var params = {
-        "heartRate" => hR.toNumber(),
-        "xAccel" => xAccel.toNumber(),
-        "yAccel" => yAccel.toNumber(),
-        "altitude" => altitude.toFloat(),
-        "cadence" => cadence.toNumber(),
-        "heading" => heading.toFloat(),
-        "xMag" => xMag.toNumber(),
-        "yMag" => yMag.toNumber(),
-        "zMag" => zMag.toNumber(),
-        "power" => power.toNumber(),
-        "pressure" => pressure.toFloat(),
-        "speed" => speed.toFloat(),
-        "temp" => temp.toNumber(),
-        "latitude" => latitude.toFloat(),
-        "longitude" => longitude.toFloat()
-    };
-    
-    //set the display field variables
-    field2 = xAccel.toString();
-    field3 = yAccel.toString();
-    field4 = hR.toString();
-    
-    var headers = {
-        "Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON,
-        "Authorization" => sas
-    };
-    var options = {
-        :headers => headers,
-        :method => Communications.HTTP_REQUEST_METHOD_POST,
-        :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
-    };
-    Communications.makeWebRequest(url, params, options, method(:onReceive));
-    
-    //Troubleshooting
-    //System.println("URL: " + url);
-    //System.println("SAS Token: " + sas);
-}
+    	var params = {
+    		"userID" => userID,
+	        "heartRate" => hR.toNumber(),
+        	"xAccel" => xAccel.toNumber(),
+        	"yAccel" => yAccel.toNumber(),
+        	"altitude" => altitude.toFloat(),
+        	"cadence" => cadence.toNumber(),
+        	"heading" => heading.toFloat(),
+        	"xMag" => xMag.toNumber(),
+        	"yMag" => yMag.toNumber(),
+        	"zMag" => zMag.toNumber(),
+        	"power" => power.toNumber(),
+        	"pressure" => pressure.toFloat(),
+        	"speed" => speed.toFloat(),
+        	"temp" => temp.toNumber(),
+        	"latitude" => latitude.toFloat(),
+        	"longitude" => longitude.toFloat()
+    	};
+	    
+	    //set the display field variables
+	    field2 = xAccel.toString();
+	    field3 = yAccel.toString();
+	    field4 = hR.toString();
+	    
+	    var headers = {
+        	"Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON,
+        	"Authorization" => sas
+    	};
+    	var options = {
+	        :headers => headers,
+        	:method => Communications.HTTP_REQUEST_METHOD_POST,
+        	:responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
+    	};
+    	Communications.makeWebRequest(url, params, options, method(:onReceive));
+	    
+	    //Troubleshooting
+	    //System.println("URL: " + url);
+	    //System.println("SAS Token: " + sas);
+	}
     
     function onReceive(responseCode, data) {
     //Uncomment for debug
@@ -253,6 +256,15 @@ class IoTWatchView extends WatchUi.View {
     	break;
     	case "201":
     	status = "OK";
+    	break;
+    	case "-101":
+    	status = "BLE Queue full";
+    	break;
+    	case "-104":
+    	status = "No Connection";
+    	break;
+    	case "--2":
+    	status = "Host Timeout";
     	break;
     	default:
     	status = responseCode.toString();
