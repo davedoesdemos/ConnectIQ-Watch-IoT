@@ -3,6 +3,8 @@ using Toybox.WatchUi;
 
 class IoTWatchApp extends Application.AppBase {
 
+    var IoTView;
+    
     function initialize() {
         AppBase.initialize();
     }
@@ -18,12 +20,13 @@ class IoTWatchApp extends Application.AppBase {
     }
 
     function onPosition(info) {
-        IoTWatchView.setPosition(info);
+        IoTView.setPosition(info);
     }
 
     // Return the initial view of your application here
     function getInitialView() {
-        return [ new IoTWatchView()];
+        IoTView = new IoTWatchView();
+        return [ IoTView ];
     }
 
 }
