@@ -195,11 +195,12 @@ class IoTWatchView extends WatchUi.View {
     	}
     	//Position
     	if( positionInfo != null ) {
-    	if (positionInfo has :position && positionInfo.position != null) {
-	        var location = positionInfo.position.toDegrees();
-        	latitude = location[0];
-        	longitude = location[1];
-    	}}
+    		if (positionInfo has :position && positionInfo.position != null) {
+	        	var location = positionInfo.position.toDegrees();
+        		latitude = location[0];
+        		longitude = location[1];
+    		}
+    	}
     	else {
 	        latitude = 0;
         	longitude = 0;
