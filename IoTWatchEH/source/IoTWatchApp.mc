@@ -17,6 +17,10 @@ class IoTWatchApp extends Application.AppBase {
     Position.enableLocationEvents(Position.LOCATION_DISABLE, method(:onPosition));
     }
 
+    function onPosition(info) {
+        IoTWatchView.setPosition(info);
+    }
+
     // Return the initial view of your application here
     function getInitialView() {
         return [ new IoTWatchView()];

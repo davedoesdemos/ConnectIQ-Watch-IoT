@@ -17,6 +17,7 @@ class IoTWatchView extends WatchUi.View {
 	var field2 = "0";
 	var field3 = "0";
 	var field4 = "0";
+	var positionInfo = null;
 	//set up the text labels
 	hidden var dispField1;
 	hidden var dispField2;
@@ -94,7 +95,7 @@ class IoTWatchView extends WatchUi.View {
     
     function timerCallback() {
         var sensorInfo = Sensor.getInfo();
-        var positionInfo = Position.getInfo();
+        //var positionInfo = Position.getInfo();
         var xAccel = 0;
         var yAccel = 0;
         var hR = 0;
@@ -325,6 +326,12 @@ class IoTWatchView extends WatchUi.View {
        dispField3.draw(dc);
        dispField4.draw(dc);
         
+    }
+    
+
+    function setPosition(info) {
+        positionInfo = info;
+        //WatchUi.requestUpdate();
     }
 
     function onHide() {
